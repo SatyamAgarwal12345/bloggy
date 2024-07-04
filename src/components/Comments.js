@@ -9,7 +9,7 @@ const CommentSection = (props) => {
 
   const [newCommentText, setNewCommentText] = useState("");
 
-  const url = `http://localhost:5550/blogs/${props.id}/comments`; // Replace with your API endpoint
+  const url = `https://bloggy-db.onrender.com/blogs${props.id}/comments`; // Replace with your API endpoint
 
   // Fetch comments on initial render and after changes
 
