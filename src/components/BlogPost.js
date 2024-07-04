@@ -167,7 +167,7 @@ const BlogPost = () => {
         //   }).then(() => nav("/view"));
         // this is to only work with db.json
         axios
-          .post(" http://localhost:5550/blogs", {
+          .post(" https://bloggy-db.onrender.com/blogs", {
             title: data.title,
 
             content: data.content,
