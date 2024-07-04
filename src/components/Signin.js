@@ -121,7 +121,7 @@ const Signin = () => {
 
   async function signUpData() {
     try {
-      await axios.get("http://localhost:5550/signin").then((data) => {
+      await axios.get("https://bloggy-db.onrender.com/signin").then((data) => {
         setSignInData(data.data);
 
         console.log(data.data);
