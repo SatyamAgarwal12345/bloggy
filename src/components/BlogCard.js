@@ -19,7 +19,7 @@ const BlogCard = (props) => {
     console.log(id + " is id");
 
     try {
-      await axios.delete(`http://localhost:5550/blogs/${id}`);
+      await axios.delete(`https://bloggy-db.onrender.com/blogs/${id}`);
       props.funcCall();
     } catch (error) {
       console.error("Error deleting blog:", error); // Handle errors gracefully
