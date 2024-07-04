@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 const Signup = () => {
   const navigate = useNavigate();
 
-  const url = "http://localhost:5550/signin";
+  const url = "https://bloggy-db.onrender.com/signin";
 
   const [themeContainer, setThemeContainer] = useState("dark");
 
@@ -141,7 +141,7 @@ const Signup = () => {
     }
 
     try {
-      await axios.post("http://localhost:5550/signin", data);
+      await axios.post("https://bloggy-db.onrender.com/signin", data);
 
       await axios
 
@@ -170,7 +170,7 @@ const Signup = () => {
   async function signUpData() {
     try {
       const response = await axios
-        .get("http://localhost:5550/signin")
+        .get("https://bloggy-db.onrender.com/signin")
         .then((data) => {
           setSignInData(data.data);
         });
