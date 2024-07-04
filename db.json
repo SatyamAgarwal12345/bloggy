@@ -1,0 +1,104 @@
+{
+  "blogs": [
+    {
+      "title": "Second blog Education edited",
+      "content": "this is my second blog con Education",
+      "categories": [
+        "cat1",
+        "cat2"
+      ],
+      "tags": [
+        "tag1",
+        "tag2"
+      ],
+      "selectedcategories": [
+        "cat1"
+      ],
+      "selectedtags": [
+        "tag1"
+      ],
+      "id": 2
+    },
+    {
+      "title": "Third blog Science",
+      "content": "this is my third blog on science ",
+      "categories": "cat1",
+      "tags": "tag2",
+      "id": 3
+    },
+    {
+      "title": "fourth blog dvelopment",
+      "content": "this is my fourth blog on development",
+      "categories": "cat1",
+      "tags": "tag2",
+      "id": 4
+    },
+    {
+      "title": "fifth blog global warming",
+      "content": "this is fisth blog on g w",
+      "categories": "cat2",
+      "tags": "tag1",
+      "id": 5
+    },
+    {
+      "title": "huihuh",
+      "content": "hgvgvhgvjb",
+      "categories": "cat2",
+      "tags": "tag1",
+      "id": 6
+    }
+  ],
+  "signin": [
+    {
+      "name": "satyam agarwal",
+      "email": "satyam1@gmail.com",
+      "password": "satyam1",
+      "id": 1
+    },
+    {
+      "name": "satyam agarwal",
+      "email": "satyam2@gmail.com",
+      "password": "satyam2",
+      "id": 2
+    },
+    {
+      "name": "test1",
+      "email": "test1@gmail.com",
+      "password": "test@123",
+      "id": 3
+    },
+    {
+      "name": "test1",
+      "email": "test1@gmail.com",
+      "password": "test@123",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "blogId": "3",
+      "content": "b3",
+      "vote": -4,
+      "id": 3,
+      "disable": true
+    },
+    {
+      "blogId": "2",
+      "content": "this is awsome blog ",
+      "vote": 11,
+      "id": 4
+    },
+    {
+      "blogId": "3",
+      "content": "i did not like this blog",
+      "vote": 0,
+      "id": 5
+    },
+    {
+      "blogId": "2",
+      "content": "Whoo i like it",
+      "vote": 0,
+      "id": 6
+    }
+  ]
+}

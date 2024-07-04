@@ -1,0 +1,97 @@
+.bodyy {
+  font-family: "Karla", sans-serif;
+
+  color: #232323;
+}
+
+.containerr {
+  background-color: #d7ccc8;
+
+  height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 30px;
+}
+
+.cardd {
+  background-color: #fff;
+
+  max-width: 800px;
+
+  box-shadow: 2px 2px 5px #9e9e9e, -1px -1px 5px #9e9e9e;
+
+  border-radius: 3px;
+
+  display: grid;
+
+  grid-template-column: repeat(5, 1fr);
+}
+
+.cardd .img-containerr {
+  width: 230px;
+
+  height: 100%;
+
+  grid-column: 2;
+
+  background-color: #c1b7b4;
+
+  background-image: url("https://www.dropbox.com/s/7d5qt5wb2xpqeww/city-street.jpg?raw=1");
+
+  background-size: cover;
+
+  background-position: center center;
+}
+
+.card-contentt {
+  grid-column: 3 / 5;
+
+  padding: 10px 30px;
+
+  border-left: 1px solid #ccc;
+}
+
+.h22 {
+  text-transform: uppercase;
+
+  color: #555;
+}
+
+.h11 {
+  margin-bottom: 0;
+}
+
+.card-contentt .authorr {
+  border-top: 1px solid #cdcdcd;
+
+  font-weight: 700;
+
+  margin-top: 25px;
+
+  padding: 25px 0 10px 0;
+
+  color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    display: block;
+  }
+
+  .card .img-container {
+    height: 250px;
+
+    width: 100%;
+  }
+
+  .card-content {
+    border: 0;
+
+    border-top: 1px solid #ccc;
+  }
+}
