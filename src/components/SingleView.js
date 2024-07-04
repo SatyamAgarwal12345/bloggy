@@ -32,7 +32,7 @@ const SingleView = () => {
 
     const response = await axios
 
-     .get(`http://localhost:5550/blogs/${param.id}`)
+     .get(`https://bloggy-db.onrender.com/blogs/${param.id}`)
 
      .then((response) => setInpFie(response.data));
 
