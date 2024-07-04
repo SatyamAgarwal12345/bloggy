@@ -9,7 +9,7 @@ const CommentContent = (props) => {
 
   const handleCommentDelete = async (commentId) => {
     try {
-      await axios.delete(`http://localhost:5550/comments/${commentId}`);
+      await axios.delete(`https://bloggy-db.onrender.com/comments/${commentId}`);
 
       // console.log(props.comment);
 
@@ -27,7 +27,7 @@ const CommentContent = (props) => {
     try {
       await axios
 
-        .patch(`http://localhost:5550/comments/${commentId}`, { disable: flag })
+        .patch(`https://bloggy-db.onrender.com/comments/${commentId}`, { disable: flag })
 
         .then(() => {
           props.fetchcomments();
@@ -41,7 +41,7 @@ const CommentContent = (props) => {
     setUpVote(upVote + 1);
 
     try {
-      await axios.patch(`http://localhost:5550/comments/${commentId}`, {
+      await axios.patch(`https://bloggy-db.onrender.com/comments/${commentId}`, {
         vote: upVote,
       });
     } catch (error) {
@@ -53,7 +53,7 @@ const CommentContent = (props) => {
     setUpVote(upVote - 1);
 
     try {
-      await axios.patch(`http://localhost:5550/comments/${commentId}`, {
+      await axios.patch(`https://bloggy-db.onrender.com/comments/${commentId}`, {
         vote: upVote,
       });
     } catch (error) {
