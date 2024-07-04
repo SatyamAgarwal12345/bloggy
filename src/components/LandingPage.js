@@ -13,7 +13,7 @@ const LandingPage = () => {
     try {
       const val = await axios
 
-        .get("http://localhost:5550/blogs")
+        .get("https://bloggy-db.onrender.com/blogs")
 
         .then((data) => {
           setData(data.data);
