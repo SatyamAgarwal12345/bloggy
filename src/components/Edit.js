@@ -149,7 +149,7 @@ const Edit = () => {
     try {
       await axios
 
-        .put(`http://localhost:5550/blogs/${idwc}`, data)
+        .put(`https://bloggy-db.onrender.com/blogs/${idwc}`, data)
 
         .then(() => nav("/view"));
     } catch (error) {}
@@ -159,7 +159,7 @@ const Edit = () => {
       try {
         const response = await axios
 
-          .get(`http://localhost:5550/blogs/${idwc}`)
+          .get(`https://bloggy-db.onrender.com/blogs/${idwc}`)
 
           .then((response) => {
             console.log(response.data);
