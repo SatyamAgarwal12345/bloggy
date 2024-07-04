@@ -20,13 +20,10 @@
   },
  
   "scripts": {
-    "start": "concurrently \"npm run start-react\" \"npm run start-json-server\"",
-    "start-react": "react-scripts start",
-    "start-json-server": "json-server --watch db.json --port 5550",
+     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "webservice": "json-server --watch db.json --port 5550"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
